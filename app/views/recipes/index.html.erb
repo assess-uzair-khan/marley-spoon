@@ -1,0 +1,16 @@
+<h1>Marley Spoon Recipes</h1>
+<h3>Recipes found: <%= @recipes.total %></h3>
+
+<ul>
+  <% @recipes.each do |recipe| %>
+    <li class="recipe_list_item">
+      <%= link_to recipe_path(recipe.id) do %>
+        <p><%= recipe.title %></p>
+        <div class="recipe_thumbnail">
+          <img src="<%= recipe.photo.url %>" alt="<%= recipe.photo.title %>">
+        </div>
+      <% end %>
+    </li>
+    <hr/>
+  <% end %>
+</ul>

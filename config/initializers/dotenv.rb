@@ -1,0 +1,1 @@
+Dotenv.require_keys("SPACE_ID", "ACCESS_TOKEN", "CONTENTFUL_ENVIRONMENT")

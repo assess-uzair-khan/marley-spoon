@@ -1,0 +1,28 @@
+// Place all the styles related to the Recipes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.recipe_error {
+  color: orange;
+}
+
+.recipe_list_item {
+  display: table-caption;
+}
+
+.recipe_thumbnail {
+  img {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+.recipe_title {
+  color: tomato;
+}
+
+.recipe_photo {
+  img {
+    border: 2px solid darkslategray;
+  }
+}
